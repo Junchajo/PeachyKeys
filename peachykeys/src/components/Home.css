@@ -1,0 +1,21 @@
+.home {
+	width: 80%;
+}
+
+h1 {
+	font-size: 2rem;
+	margin: 2rem 0rem;
+}
+
+p {
+	width: 80%;
+	margin-right: 20%;
+}
+
+.key-switch {
+	display: flex;
+}
+
+.key-switch img {
+	background-color: red;
+}
