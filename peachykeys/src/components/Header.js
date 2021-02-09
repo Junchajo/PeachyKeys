@@ -4,7 +4,7 @@ import peachyLogo from '../images/peachy-logo.png';
 
 function Header() {
 	return (
-		<div>
+		<div className="navbar">
 			<img className="header-logo" src={peachyLogo} />
 			<nav className="header">
 				<a>How It Works</a>
