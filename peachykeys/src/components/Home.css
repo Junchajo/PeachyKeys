@@ -2,6 +2,11 @@
 	width: 80%;
 }
 
+.header-keyboard {
+	display: flex;
+	background-color: red;
+}
+
 h1 {
 	font-size: 2rem;
 	margin: 2rem 0rem;
