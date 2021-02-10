@@ -1,7 +1,9 @@
 .navbar {
-	background-color: red;
+	background-color: pink;
 	padding-top: 1.5rem;
+	padding-bottom: 6rem;
 }
+
 .header {
 	display: flex;
 	justify-content: flex-end;
