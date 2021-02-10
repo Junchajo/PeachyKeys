@@ -7,7 +7,7 @@
 
 .header-keyboard {
 	display: flex;
-	background-color: red;
+	background-color: pink;
 	transform: rotate(7deg);
 	position: relative;
 	z-index: -1;
