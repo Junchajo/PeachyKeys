@@ -4,7 +4,7 @@
 
 .header-keyboard {
 	display: flex;
-	background-color: red;
+	background-image: linear-gradient(#ff8a00, #e52e71);
 }
 
 h1 {
