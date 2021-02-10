@@ -1,10 +1,19 @@
 .home {
 	width: 80%;
 }
+.app {
+	overflow: hidden;
+}
 
 .header-keyboard {
 	display: flex;
 	background-color: red;
+	transform: rotate(7deg);
+	position: relative;
+	z-index: -1;
+	width: 110%;
+	bottom: 6rem;
+	right: 4rem;
 }
 
 h1 {
@@ -81,7 +90,7 @@ p {
 .curved-boxes {
 	display: flex;
 	justify-content: space-evenly;
-	width: 80%;
+	width: 70%;
 	flex-wrap: wrap;
 }
 

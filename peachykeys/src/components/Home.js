@@ -6,7 +6,7 @@ import BuildKeyboard from './BuildKeyboard';
 
 function Home() {
 	return (
-		<div>
+		<div className="app">
 			<section className="header-keyboard">
 				<BuildKeyboard />
 			</section>

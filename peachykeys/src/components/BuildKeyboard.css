@@ -1,3 +1,5 @@
 .cover-keyboard {
 	display: flex;
+	transform: rotate(-10deg);
+	padding-top: 2rem;
 }
