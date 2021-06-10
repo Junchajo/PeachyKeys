@@ -1,91 +1,40 @@
+.app{
+	background-color: #ffbc04;
+}
 .home {
-	width: 80%;
+	width: 70%;
 }
 
-.header-keyboard {
-	display: flex;
-	background-image: linear-gradient(#ff8a00, #e52e71);
+.h-keyboard {
+	background-image: linear-gradient(#ffa339, #d65886);
 }
 
 h1 {
 	font-size: 2rem;
 	margin: 2rem 0rem;
+	color: rgb(41, 8, 59);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+	animation: fadeInAnimation ease .5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 p {
-	width: 80%;
-	margin-right: 20%;
+
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
-.key-switch {
-	display: flex;
-	position: relative;
-	right: 9rem;
-	margin-top: 5rem;
-}
 
-.key-switch img {
-	width: 30%;
-	height: 30%;
-}
 
-.key-switch-2 {
-	position: relative;
-	bottom: 2rem;
-	right: 3rem;
-}
-
-.key-switch-3 {
-	position: relative;
-	bottom: 4rem;
-	right: 8rem;
-}
-
-.key-switch-4 {
-	position: relative;
-	bottom: 6rem;
-	right: 12rem;
-}
-
-.key-switch-5 {
-	position: relative;
-	bottom: 8rem;
-	right: 15rem;
-}
-
-.curved-box {
-	width: 11rem;
-	margin: 1rem;
-	background-color: #ff3e93;
-	border-radius: 1.5rem;
-}
-
-.curved-box h2 {
-	background: #ff3e93;
-	color: #f4fbfd;
-	padding: 10px 15px 5px 15px;
-	display: flex;
-	justify-content: center;
-	border-radius: 1.5rem;
-}
-
-.curved-box p {
-	background: #ff3e93;
-	padding: 5px 15px 10px 15px;
-	border-radius: 1.5rem;
-	text-align: center;
-	font-size: 12px;
-	color: white;
-}
-
-.curved-boxes {
-	display: flex;
-	justify-content: space-evenly;
-	width: 80%;
-	flex-wrap: wrap;
-}
-
-.curved-box img {
-	width: 10rem;
-	height: 10rem;
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }

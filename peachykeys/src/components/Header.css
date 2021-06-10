@@ -1,15 +1,68 @@
-.navbar {
-	  background-image: radial-gradient(#ff8a00, #ff8a00);
-	padding-top: 1.5rem;
-}
-.header {
-	display: flex;
-	justify-content: flex-end;
-	margin-left: 70%;
-}
+
 
 .header-logo {
-	width: 12%;
-	height: 17%;
-	position: absolute;
+	margin-left: 3rem;
+	margin-top: 3rem;
+	max-width: 7rem;
+	
+	animation-duration: .75s;
+    animation-name: slidein;
+
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	
 }
+.navbar{
+	background-color: #ffbc04;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 2rem 0% 0% 0%;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  animation-duration: .75s;
+  animation-name: slidein;
+
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  color: purple;
+}
+
+
+
+
+  
+
+@keyframes slidein {
+	from {
+	  opacity:0;
+	  margin-top: 8rem;
+	}
+  
+	to {
+	  opacity: 1;
+	  width: 100%;
+	}
+  }

@@ -6,7 +6,9 @@ import BuildKeyboard from './BuildKeyboard';
 
 function Home() {
 	return (
-		<div>
+	
+		<div className="app">
+				
 			<section className="header-keyboard">
 				<BuildKeyboard />
 			</section>
@@ -20,13 +22,6 @@ function Home() {
 						the future we hope to offer limited Peachy Keys merchandize like
 						mats and accessories.
 					</p>
-					<div className="key-switch">
-						<img src={keySwitch} className="key-switch-1" />
-						<img src={keySwitch} className="key-switch-2" />
-						<img src={keySwitch} className="key-switch-3" />
-						<img src={keySwitch} className="key-switch-4" />
-						<img src={keySwitch} className="key-switch-5" />
-					</div>
 				</section>
 				<section className="how-it-works">
 					<h1>How It Works</h1>

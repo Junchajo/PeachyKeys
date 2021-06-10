@@ -7,9 +7,11 @@ function Header() {
 		<div className="navbar">
 			<img className="header-logo" src={peachyLogo} />
 			<nav className="header">
-				<a>How It Works</a>
-				<a>Commissions</a>
-				<a>Contact Us</a>
+				<ul>
+					<li><a href="https://www.w3schools.com">How It Works</a></li>
+					<li><a href="https://www.w3schools.com">Commissions</a></li>
+					<li><a href="https://www.w3schools.com">Contact Us</a></li>
+				</ul>
 			</nav>
 		</div>
 	);

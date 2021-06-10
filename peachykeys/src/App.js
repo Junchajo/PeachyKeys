@@ -6,14 +6,9 @@ import Header from './components/Header';
 function App() {
 	return (
 		<Router>
-			<div>
 				<Header />
-				<Switch>
-					<Route path="/">
-						<Home />
-					</Route>
-				</Switch>
-			</div>
+				<Home />
+
 		</Router>
 	);
 }
