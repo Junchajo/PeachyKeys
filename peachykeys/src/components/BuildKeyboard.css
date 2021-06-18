@@ -1,9 +1,9 @@
 .cover-keyboard {
 	display: flex;
 	position: relative;
-	padding-bottom: 5rem;
-	max-width: 100rem;
 	height: auto;
+	max-width: 70rem;
+	padding-bottom: 10rem;
 
 	animation-duration: .75s;
 	animation-name: hero;

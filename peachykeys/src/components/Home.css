@@ -1,32 +1,67 @@
 .app{
-	background-color: #ffbc04;
-}
-.home {
-	width: 70%;
+	background-color: #fbcc00;
 }
 
-.h-keyboard {
-	background-image: linear-gradient(#ffa339, #d65886);
+.howsection {
+	max-width: 100%;
+	padding: 2rem 5rem 5rem 5rem;
+
+	background: #1B1049;
 }
+
+
+
 
 h1 {
-	font-size: 2rem;
-	margin: 2rem 0rem;
-	color: rgb(41, 8, 59);
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
+	padding-top:4rem;
+	font-size: 4rem;
+	color: #FF4050;
 
-	animation: fadeInAnimation ease .5s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	max-width: 95rem;
+
+	font-family: minion-std-black, serif;
+	font-weight: 400;
+	font-style: normal;
+
 }
 
 p {
+	max-width: 95rem;
+	color: #FF4050;
+	margin-top: 1rem;
 
-	animation: fadeInAnimation ease 1s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	font-family: minion-pro-caption, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	
+;
 }
+
+.smallerP{
+	font-family: minion-pro-caption, serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	
+}
+
+
+.about {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	
+}
+ .about-title{
+	 text-align: center;
+  }
+
+
+
+
 
 
 
@@ -38,3 +73,18 @@ p {
         opacity: 1;
      }
 }
+
+@keyframes hero {
+	from {
+	  opacity:0;
+	  width: 75%;
+	}
+  
+	to {
+	  opacity: 1;
+	  width: 100%;
+	}
+  }
+
+  @import url("https://use.typekit.net/fxj3apw.css");
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');

@@ -4,6 +4,7 @@
 	margin-left: 3rem;
 	margin-top: 3rem;
 	max-width: 7rem;
+	position: relative;
 	
 	animation-duration: .75s;
     animation-name: slidein;
@@ -13,7 +14,7 @@
 	
 }
 .navbar{
-	background-color: #ffbc04;
+	background-color: #fbcc00;
 }
 
 
@@ -26,7 +27,7 @@ ul {
   top: 0;
   width: 100%;
 
-  animation-duration: .75s;
+  animation-duration: 1s;
   animation-name: slidein;
 
   animation-iteration-count: 1;
@@ -38,16 +39,19 @@ li {
 }
 
 li a {
-  display: block;
-  color: black;
+  display: flex;
+  color: #1B1049;
   text-align: center;
   padding: 1rem 2rem;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: minion-pro-subhead, serif;
+font-weight: 700;
+font-style: normal;
+    font-size: 1.2rem;
 }
 
 li a:hover {
-  color: purple;
+  color: #FF4050;
 }
 
 
