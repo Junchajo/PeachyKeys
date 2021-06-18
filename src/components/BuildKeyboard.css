@@ -1,0 +1,26 @@
+.cover-keyboard {
+	display: flex;
+	position: relative;
+	height: auto;
+	max-width: 70rem;
+	padding-bottom: 10rem;
+
+	animation-duration: .75s;
+	animation-name: hero;
+  
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes hero {
+	from {
+	  opacity:0;
+	  width: 75%;
+	}
+  
+	to {
+	  opacity: 1;
+	  width: 100%;
+	}
+  }
