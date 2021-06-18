@@ -27,7 +27,7 @@ ul {
   top: 0;
   width: 100%;
 
-  animation-duration: 1s;
+  animation-duration: .75s;
   animation-name: slidein;
 
   animation-iteration-count: 1;
