@@ -2,13 +2,11 @@
 .case{
     display: flex;
 	position: relative;
-    max-width: 40rem;
+	max-width: 40rem;
+	width: 100%;
+	height: auto;
 
-	animation-duration: .75s;
-	animation-name: hero;
-  
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+
 
 }
 h2 {
@@ -55,14 +53,3 @@ h1 em{
 }
 
 
-@keyframes hero {
-	from {
-	  opacity:0;
-	  width: 75%;
-	}
-  
-	to {
-	  opacity: 1;
-	  width: 100%;
-	}
-  }

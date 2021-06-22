@@ -1,0 +1,21 @@
+.buildsection{
+    background-color: white;
+    max-width: 100%;
+	padding: 2rem 5rem 5rem 5rem;
+}
+.buildHeader{
+    color:#212121
+}
+.buildP{
+    color:#212121
+}
+
+.buildHeader em{
+    font-family: minion-pro-caption, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #212121;
+}
+.buildH3{
+    color: #212121;
+}

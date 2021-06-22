@@ -10,7 +10,7 @@ function Header() {
 			<nav className="header">
 				<ul>
 					<li><a href="#contactsection">Contact</a></li>
-					<li><a href="#aboutsection">About</a></li>
+					<li><a href="#aboutsection">Build</a></li>
 					<li><a href="#howsection">How It Works</a></li>
 				</ul>
 			</nav>

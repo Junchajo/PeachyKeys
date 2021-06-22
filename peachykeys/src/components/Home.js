@@ -6,6 +6,7 @@ import BuildKeyboard from './BuildKeyboard';
 
 import HowItWorks from './HowItWorks';
 import About from './About';
+import Build from './Build';
 
 function Home() {
 	return (
@@ -20,10 +21,9 @@ function Home() {
 				<HowItWorks/>
 			</div>
 
-			<section className="theres-more">
-				<h1>Theres More</h1>
-				<p>cool</p>
-			</section>
+			<div className="buildsection">
+				<Build/>
+			</div>
 
 			<div className="about">
 				<About/>
